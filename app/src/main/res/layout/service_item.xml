@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    tools:context=".Activities.ServiceActivity"
+    android:rowCount="3">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="@dimen/controls_margin"
+        android:id="@+id/ServiceImg"
+        android:src="@drawable/noimage"
+        android:layout_column="0"
+        android:layout_columnWeight="2"
+        android:layout_row="0"
+        android:layout_gravity="center"
+        android:layout_rowSpan="3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleService"
+        android:layout_margin="@dimen/controls_margin"
+        android:text="@string/Title"
+        android:textSize="@dimen/text_size"
+        android:layout_column="1"
+        android:layout_columnWeight="4"
+        android:layout_row="0"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/AboutService"
+        android:lines="2"
+        android:layout_margin="@dimen/controls_margin"
+        android:text="@string/About"
+        android:textSize="@dimen/text_size"
+        android:layout_column="1"
+        android:layout_columnWeight="4"
+        android:layout_row="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CostService"
+        android:layout_margin="@dimen/controls_margin"
+        android:layout_gravity="top"
+        android:text="127.00zl"
+        android:textSize="@dimen/text_size"
+        android:layout_column="1"
+        android:layout_columnWeight="4"
+        android:layout_row="2"/>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/delete"
+        android:id="@+id/deleteServiceBtn"
+        android:layout_margin="10dp"
+        android:onClick="DeleteService"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_rowSpan="3"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        />
+</GridLayout>
