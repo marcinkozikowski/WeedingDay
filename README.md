@@ -35,3 +35,11 @@ After all you can see summary to check number of guests, number of people who ne
   <img src="https://github.com/marcinkozikowski/WeedingDay/blob/master/WeedingDay_UI/Screenshot_20170327-131543.png" width="600"/>
 </p>
 
+<h2>
+Expenses
+</h2>
+There are lots of things to buy or pay for before weeding. It's very hard to keep your budgets in order. Now you can easily add new cost to diffrent categories and then summarise them. Now are available categories: Multimedia (example: camera man), Clothes, Other,Catering, Attractions for guests, Car (weeding day car). 
+<p align="center">
+  <img src="https://github.com/marcinkozikowski/WeedingDay/blob/master/WeedingDay_UI/Screenshot_20170327-131618.png" width="600"/>
+</p>
+
