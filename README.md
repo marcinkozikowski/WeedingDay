@@ -1,7 +1,7 @@
 <h1>
 # WeedingDay
 </h1>
-Android app which helps while organizing your WeedingDay
+Android app which helps while organizing your WeedingDay. It was first app where I try to use android fragments and lots of diffrent UI elements like custom spinner, few custom lists adapters. Main menu created for land and port usage. There are still some bugs while adding guests to guest list, sometimes it works lika a char, another times it crashes, because of applying fragments.
 
 <h2>
 Main menu
