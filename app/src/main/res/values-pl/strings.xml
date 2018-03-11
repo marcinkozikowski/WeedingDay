@@ -62,4 +62,6 @@
     <string name="CostsSummary">Podsumowanie kosztów</string>
     <string name="ServiceCosts">Koszt usługodawców</string>
     <string name="ProviderList">Lista usługodawców</string>
+    <string name="title_item_detail">Szczegóły</string>
+    <string name="title_item_list">Lista</string>
 </resources>

@@ -31,8 +31,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <admin />
         </activity>
         <activity
             android:name=".ItemDetailActivity"
